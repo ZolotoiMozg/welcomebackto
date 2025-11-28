@@ -235,6 +235,10 @@ try {
           </p>
 
           <p>
+            <i>Note to other parents: Harlan will be sleeping over at his grandparents' house that night, so we're not planning any kid-specific activities (no, videogames are very grown up).</i>
+          </p>
+
+          <p>
             <strong>Guests confirmed so far:</strong>
             <?php echo $totalGuests; ?>
           </p>
@@ -244,12 +248,12 @@ try {
         <div class="section-bg">
           <h2>RSVP</h2>
           <p class="help-text">
-            Please enter your name and the email address we have on file so we can confirm your spot.
+            Please enter your name and email address so we can confirm you're coming.
           </p>
 
           <form action="rsvp.php" method="post" novalidate>
             <div>
-              <label for="name">Name</label>
+              <label for="name">First and Last Name (just one person)</label>
               <input
                 type="text"
                 id="name"
@@ -273,7 +277,7 @@ try {
             </div>
 
             <div>
-              <label for="guests">Number of guests</label>
+              <label for="guests">Number of guests (including you)</label>
               <input
                 type="number"
                 id="guests"
